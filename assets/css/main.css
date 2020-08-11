@@ -3064,7 +3064,7 @@
 			-webkit-animation: none;
 			-ms-animation: none;
 			animation: none;
-			background: none;
+			background: rgba(0, 0, 0, 0.5);
 			color: rgba(255, 255, 255, 0.75);
 			position: absolute;
 		}
@@ -3161,15 +3161,24 @@
 /* Banner */
 
 	#banner {
-		background-attachment: fixed;
-		background-image: url("../../images/banner.jpg");
-		background-position: center center;
+        background-attachment: fixed;
+        background-image: url("../../images/source.gif");
+        background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		color: #fff;
 		padding: 12em 0 20em 0;
 		text-align: center;
 	}
+        #banner a {
+            color: #fff;
+            text-decoration: underline;
+            border-bottom: none;
+        }
+
+        #banner li a{
+            text-decoration: none;
+        }
 
 		#banner :last-child {
 			margin-bottom: 0;
