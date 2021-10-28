@@ -3161,6 +3161,7 @@
 /* Banner */
 
     #banner_video {
+		background: gray;
         z-index: -1;
         position: absolute;
         object-fit: cover;
